@@ -209,14 +209,11 @@ const HomePage = () => {
                                     <img src="https://source.unsplash.com/360x200?programming" alt="Programming" className="w-full" />
                                     <div className="py-8 px-6">
                                         <h3>
-                                            <a href="#"
-                                                className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white">Tips
-                                                Belajar Programming</a>
+                                            <a href="/tips"
+                                                className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white">Mengasah Keterampilan Pemrograman: Tips dan Strategi Efektif</a>
                                         </h3>
-                                        <p className="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet
-                                            consectetur
-                                            adipisicing elit. Officiis, voluptate?</p>
-                                        <a href="#"
+                                        <p className="font-medium text-base text-secondary mb-6">Pemrograman, dalam era digital saat ini, telah menjadi salah satu keterampilan yang sangat dicari di berbagai industri.</p>
+                                        <a href="/tips"
                                             className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca
                                             Selengkapnya</a>
                                     </div>
@@ -228,14 +225,12 @@ const HomePage = () => {
                                         className="w-full" />
                                     <div className="py-8 px-6">
                                         <h3>
-                                            <a href="#"
+                                            <a href="/review"
                                                 className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white">Review
                                                 Keyboard Redragon K-617 RGB</a>
                                         </h3>
-                                        <p className="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet
-                                            consectetur
-                                            adipisicing elit. Officiis, voluptate?</p>
-                                        <a href="#"
+                                        <p className="font-medium text-base text-secondary mb-6">Keberadaan keyboard yang berkualitas menjadi sangat penting bagi para pengguna komputer, baik untuk keperluan gaming maupun produktivitas sehari-hari. </p>
+                                        <a href="/review"
                                             className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca
                                             Selengkapnya</a>
                                     </div>
@@ -246,14 +241,11 @@ const HomePage = () => {
                                     <img src="https://source.unsplash.com/360x200?cup+coffee" alt="coffee" className="w-full" />
                                     <div className="py-8 px-6">
                                         <h3>
-                                            <a href="#"
-                                                className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white">Menikmati
-                                                Secangkir Kopi</a>
+                                            <a href="/kopi"
+                                                className="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate dark:text-white">Menemukan Keindahan di Setiap Tetes Kopi: Seni dan Kesenangan dalam Secangkir Kopi</a>
                                         </h3>
-                                        <p className="font-medium text-base text-secondary mb-6">Lorem ipsum dolor sit amet
-                                            consectetur
-                                            adipisicing elit. Officiis, voluptate?</p>
-                                        <a href="#"
+                                        <p className="font-medium text-base text-secondary mb-6">Kopi telah menjadi minuman yang tidak hanya sekadar penghilang kantuk, tetapi juga simbol dari seni dan kesenangan dalam hidup sehari-hari. </p>
+                                        <a href="/kopi"
                                             className="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca
                                             Selengkapnya</a>
                                     </div>

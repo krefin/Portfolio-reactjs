@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 
 const HeaderComponent = () => {
@@ -72,29 +73,67 @@ const HeaderComponent = () => {
                                 className="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark dark:shadow-slate-500 lg:dark:bg-transparent">
                                 <ul className="block lg:flex">
                                     <li className="group">
-                                        <a href="#home"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Beranda</a>
+                                        <NavLink
+                                            to="/"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Beranda
+                                        </NavLink>
+
                                     </li>
                                     <li className="group">
-                                        <a href="#about"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Tentang
-                                            Saya</a>
+                                        <NavLink
+                                            to="/tentang"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Tentang
+                                            Saya
+                                        </NavLink>
+
                                     </li>
                                     <li className="group">
-                                        <a href="#portfolio"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Portfolio</a>
+                                        <NavLink
+                                            to="/portfolio"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Portfolio
+                                        </NavLink>
                                     </li>
                                     <li className="group">
-                                        <a href="#clients"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Clients</a>
+                                        <NavLink
+                                            to="/clients"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Clients
+                                        </NavLink>
                                     </li>
                                     <li className="group">
-                                        <a href="#blog"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Blog</a>
+                                        <NavLink
+                                            to="/blog"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Blog
+                                        </NavLink>
                                     </li>
                                     <li className="group">
-                                        <a href="#contact"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Contact</a>
+                                        <NavLink
+                                            to="/contact"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Contact
+                                        </NavLink>
                                     </li>
                                     <li className="flex items-center pl-8 mt-3 lg:mt-0">
                                         <div className="flex">
