@@ -2,7 +2,7 @@
 
 const MenikmatiKopi = () => {
     return (
-        <section className="pt-36 pb-32 bg-slate-100 dark:bg-dark">
+        <section id="home" className="pt-36 pb-32 bg-slate-100 dark:bg-dark">
             <div className="container">
                 <div className="w-full px-4">
                     <div className="max-wx-xl mx-auto text-center mb-16">
@@ -10,7 +10,7 @@ const MenikmatiKopi = () => {
                         <p className="font-medium text-md text-secondary md:text-lg text-left mb-3">minuman yang tidak hanya sekadar penghilang kantuk, tetapi juga simbol dari seni dan kesenangan dalam hidup sehari-hari. Dari biji kopi yang dipetik dengan cermat hingga proses penyeduhan yang penuh perhatian, menikmati secangkir kopi adalah sebuah perjalanan pengalaman yang mendalam.</p>
                         <img src="https://source.unsplash.com/1280x720?cup+coffee" alt="Coffee" className="w-full" />
 
-                        <div className="w-3/4 mx-auto mt-3">
+                        <div className="w-full mx-auto mt-3">
                             <p className="font-medium text-md text-secondary md:text-lg text-left">Dalam artikel ini, kita akan mengeksplorasi seni dan keindahan yang terkandung di balik setiap tetes kopi yang disajikan.</p>
                             <h4 className="font-bold pt-6 text-dark text-left text-xl mb-4 sm:text-2xl lg:text-3xl dark:text-white">Memilih Bijinya dengan Teliti</h4>
                             <p className="font-medium text-md text-secondary md:text-lg text-left">

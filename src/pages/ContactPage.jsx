@@ -2,14 +2,13 @@
 
 const ContactPage = () => {
     return (
-        <section id="contact" className="pt-36 pb-32 dark:bg-slate-800">
+        <section id="home" className="pt-36 pb-32 dark:bg-slate-800">
             <div className="container">
                 <div className="w-full px-4">
                     <div className="max-wx-xl mx-auto text-center mb-16">
                         <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Hubungi Saya
                         </h2>
-                        <p className="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur,
-                            adipisicing elit. Reiciendis, veniam.</p>
+                        <p className="font-medium text-md text-secondary md:text-lg">Jangan ragu untuk menghubungi saya! Mari berkolaborasi atau diskusikan proyek Anda bersama saya. Saya sangat antusias untuk mendengar dari Anda dan bekerja sama dalam menciptakan sesuatu yang luar biasa!</p>
                     </div>
                 </div>
                 <form>

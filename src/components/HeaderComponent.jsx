@@ -6,10 +6,15 @@ const HeaderComponent = () => {
     window.onscroll = function () {
         const header = document.querySelector("header");
         const fixedNav = header.offsetTop;
+        const toTop = document.querySelector('#to-top');
         if (window.pageYOffset > fixedNav) {
             header.classList.add("navbar-fixed");
+            toTop.classList.remove('hidden');
+            toTop.classList.add('flex');
         } else {
             header.classList.remove("navbar-fixed");
+            toTop.classList.remove('flex');
+            toTop.classList.add('hidden');
         }
     };
 
@@ -61,7 +66,7 @@ const HeaderComponent = () => {
                 <div className="container">
                     <div className="flex items-center justify-between relative">
                         <div className="px-4">
-                            <a href="#home" className="font-bold text-lg text-primary block py-6">Alfin</a>
+                            <a href="/" className="font-bold text-lg text-primary block py-6">Alfin</a>
                         </div>
                         <div className="flex items-center px-4">
                             <button id="hamburger" name="hamburger" type="button" onClick={toggleMenu} className="block absolute right-4 lg:hidden">

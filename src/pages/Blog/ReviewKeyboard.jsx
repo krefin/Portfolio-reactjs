@@ -2,7 +2,7 @@
 
 const ReviewKeyboard = () => {
     return (
-        <section className="pt-36 pb-32 bg-slate-100 dark:bg-dark">
+        <section id="home" className="pt-36 pb-32 bg-slate-100 dark:bg-dark">
             <div className="container">
                 <div className="w-full px-4">
                     <div className="max-wx-xl mx-auto text-center mb-16">
@@ -10,7 +10,7 @@ const ReviewKeyboard = () => {
                         <p className="font-medium text-md text-secondary md:text-lg text-left mb-3">Keberadaan keyboard yang berkualitas menjadi sangat penting bagi para pengguna komputer, baik untuk keperluan gaming maupun produktivitas sehari-hari. Salah satu keyboard yang menarik perhatian adalah Redragon K-617 RGB.</p>
                         <img src="https://source.unsplash.com/1280x720?keyboard+mechanical" alt="Keyboard" className="w-full" />
 
-                        <div className="w-3/4 mx-auto mt-3">
+                        <div className="w-full mx-auto mt-3">
                             <p className="font-medium text-md text-secondary md:text-lg text-left">Dalam artikel ini, kita akan melakukan review mendalam terhadap keyboard ini, meliputi desain, kualitas, fitur, dan performa secara keseluruhan.</p>
                             <h4 className="font-bold pt-6 text-dark text-left text-xl mb-4 sm:text-2xl lg:text-3xl dark:text-white">Desain</h4>
                             <p className="font-medium text-md text-secondary md:text-lg text-left">

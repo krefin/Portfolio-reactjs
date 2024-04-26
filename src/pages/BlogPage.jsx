@@ -2,14 +2,13 @@
 
 const BlogPage = () => {
     return (
-        <section id="blog" className="pt-36 pb-32 bg-slate-100 dark:bg-dark">
+        <section id="home" className="pt-36 pb-32 bg-slate-100 dark:bg-dark">
             <div className="container">
                 <div className="w-full px-4">
                     <div className="max-wx-xl mx-auto text-center mb-16">
                         <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Tulisan
                             Terkini</h2>
-                        <p className="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur,
-                            adipisicing elit. Maxime blanditiis aliquid hic repellendus.</p>
+                        <p className="font-medium text-md text-secondary md:text-lg">Ada tulisan terbaru nih di blog! Temukan inspirasi dan pengetahuan baru seputar dunia teknologi, kreativitas, dan inovasi. Jangan lewatkan untuk membaca dan berbagi pandanganmu!</p>
                     </div>
                     <div className="flex flex-wrap">
                         <div className="w-full px-4 lg:w-1/2 xl:w-1/3">

@@ -28,7 +28,7 @@ const HomePage = () => {
                                 <img src={HeroImage} alt="Alfin" className='max-w-full mx-auto relative z-10' />
                                 <span className="absolute -bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
                                     <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill="#14b8a6"
+                                        <path fill="#969432"
                                             d="M42.9,-50.8C55,-41,63.8,-26.9,65.9,-12.1C67.9,2.8,63.3,18.4,54.7,29.9C46,41.5,33.3,49,21.7,48.3C10.2,47.6,-0.3,38.5,-11.3,33.4C-22.3,28.4,-33.8,27.3,-37.5,21.4C-41.1,15.5,-36.9,4.9,-37,-8.6C-37.1,-22.1,-41.6,-38.5,-36.1,-49.5C-30.7,-60.4,-15.3,-66,0,-66.1C15.4,-66.1,30.9,-60.6,42.9,-50.8Z"
                                             transform="translate(100 100) scale(1.1)" />
                                     </svg>
@@ -49,20 +49,12 @@ const HomePage = () => {
                                 programming biar
                                 keren:v
                             </h2>
-                            <p className="font-medium text-base text-secondary max-w-xl lg:text-lg">Lorem ipsum dolor sit amet,
-                                consectetur
-                                adipisicing
-                                elit. Molestias quibusdam provident,
-                                architecto assumenda dolores consequuntur in?</p>
+                            <p className="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya adalah individu yang penuh semangat dalam mempelajari web programming, dengan kreativitas yang mengalir dan ketekunan yang kuat. Tantangan selalu saya hadapi dengan antusiasme, dan saya terus berkembang demi mencapai kesuksesan.</p>
                         </div>
                         <div className="w-full px-4 lg:w-1/2">
                             <h3 className="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 dark:text-white">Mari berteman
                             </h3>
-                            <p className="font-medium text-base text-secondary mb-6 lg:text-lg">Lorem ipsum dolor sit amet
-                                consectetur
-                                adipisicing
-                                elit. Culpa, iure? Facilis aut sequi officia
-                                doloremque debitis nihil. Soluta!</p>
+                            <p className="font-medium text-base text-secondary mb-6 lg:text-lg">Tak kenal maka tak sayang, sudah kenal jangan buat 100rb ku melayang. Jadi mari mutualan di berbagai social media berikut.</p>
                             <div className="flex items-center">
                                 {/*  facebook  */}
                                 <a href="https://www.facebook.com/alfinkrefin" target="_blank"
@@ -121,10 +113,7 @@ const HomePage = () => {
                             <h4 className="font-semibold text-lg text-primary mb-2 ">Portfolio</h4>
                             <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Project
                                 Terbaru</h2>
-                            <p className="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit, amet consectetur
-                                adipisicing
-                                elit. Dolore facere distinctio dolorem quae
-                                nobis? Aspernatur reprehenderit deleniti recusandae impedit minus?</p>
+                            <p className="font-medium text-md text-secondary md:text-lg">Project Terbaru yang keren nih! Yuk, cek portfolio saya yang penuh dengan kreativitas dan keunikan. Jangan lewatkan kesempatan untuk menjelajahi karya-karya saya yang memukau!</p>
                         </div>
                     </div>
                     <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
@@ -133,24 +122,21 @@ const HomePage = () => {
                                 <img src={HOL} alt="HouseOfLearning" width="w-full" />
                             </div>
                             <h3 className="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">House Of Learning</h3>
-                            <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Mollitia esse voluptates numquam.</p>
+                            <p className="font-medium text-base text-secondary">House Of Learning merupakan sebuah LMS dibangun menggunakan Laravel 10.</p>
                         </div>
                         <div className="mb-12 p-4 md:w-1/2">
                             <div className="rounded-md shadow-md overflow-hidden">
                                 <img src={Course} alt="WebCourse" width="w-full" />
                             </div>
-                            <h3 className="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Web Course Reactjs + vite</h3>
-                            <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Mollitia esse voluptates numquam.</p>
+                            <h3 className="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Ngods.</h3>
+                            <p className="font-medium text-base text-secondary">Ngods. Merupakan website course online, yang menyediakan berbagai course seputar pemrograman dan dibangun menggunakan React Js + Vite.</p>
                         </div>
                         <div className="mb-12 p-4 md:w-1/2">
                             <div className="rounded-md shadow-md overflow-hidden">
                                 <img src={LandingPage} alt="LandingPage" width="w-full" />
                             </div>
-                            <h3 className="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Landing Page</h3>
-                            <p className="font-medium text-base text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Mollitia esse voluptates numquam.</p>
+                            <h3 className="font-semibold text-xl text-dark mt-5 mb-3 dark:text-white">Web Portfolio</h3>
+                            <p className="font-medium text-base text-secondary">Merupakan web portfolio sederhana yang dibangun dengan hanya menggunakan HTML, CSS, dan JavaScript.</p>
                         </div>
                     </div>
                 </div>
@@ -164,9 +150,7 @@ const HomePage = () => {
                             <h4 className="font-semibold text-lg text-primary mb-2">Clients</h4>
                             <h2 className="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark">Yang Pernah
                                 Bekerjasama</h2>
-                            <p className="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur
-                                adipisicing
-                                elit. Quasi iste vitae ipsa.</p>
+                            <p className="font-medium text-md text-secondary md:text-lg">Pelanggan yang pernah kolaborasi sama saya nih! Keren banget pengalaman bekerja sama dengan mereka. Ayo, simak kisah sukses dan proyek seru yang pernah kami rancang bersama!</p>
                         </div>
                     </div>
                     <div className="w-full px-4">
@@ -200,8 +184,7 @@ const HomePage = () => {
                             <h4 className="font-semibold text-lg text-primary mb-2">Blog</h4>
                             <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Tulisan
                                 Terkini</h2>
-                            <p className="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Maxime blanditiis aliquid hic repellendus.</p>
+                            <p className="font-medium text-md text-secondary md:text-lg">Ada tulisan terbaru nih di blog! Temukan inspirasi dan pengetahuan baru seputar dunia teknologi, kreativitas, dan inovasi. Jangan lewatkan untuk membaca dan berbagi pandanganmu!</p>
                         </div>
                         <div className="flex flex-wrap">
                             <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
@@ -264,8 +247,7 @@ const HomePage = () => {
                             <h4 className="font-semibold text-lg text-primary mb-2">Contact</h4>
                             <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Hubungi Saya
                             </h2>
-                            <p className="font-medium text-md text-secondary md:text-lg">Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Reiciendis, veniam.</p>
+                            <p className="font-medium text-md text-secondary md:text-lg">Jangan ragu untuk menghubungi saya! Mari berkolaborasi atau diskusikan proyek Anda bersama saya. Saya sangat antusias untuk mendengar dari Anda dan bekerja sama dalam menciptakan sesuatu yang luar biasa!</p>
                         </div>
                     </div>
                     <form>

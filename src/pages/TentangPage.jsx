@@ -2,7 +2,7 @@
 
 const TentangPage = () => {
     return (
-        <section id="about" className="pt-36 pb-32 dark:bg-dark">
+        <section id="home" className="pt-36 pb-32 dark:bg-dark">
             <div className="container">
                 <div className="flex flex-wrap">
                     <div className="w-full px-4 mb-10 lg:w-1/2">
@@ -10,20 +10,12 @@ const TentangPage = () => {
                             programming biar
                             keren:v
                         </h2>
-                        <p className="font-medium text-base text-secondary max-w-xl lg:text-lg">Lorem ipsum dolor sit amet,
-                            consectetur
-                            adipisicing
-                            elit. Molestias quibusdam provident,
-                            architecto assumenda dolores consequuntur in?</p>
+                        <p className="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya adalah individu yang penuh semangat dalam mempelajari web programming, dengan kreativitas yang mengalir dan ketekunan yang kuat. Tantangan selalu saya hadapi dengan antusiasme, dan saya terus berkembang demi mencapai kesuksesan</p>
                     </div>
                     <div className="w-full px-4 lg:w-1/2">
                         <h3 className="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 dark:text-white">Mari berteman
                         </h3>
-                        <p className="font-medium text-base text-secondary mb-6 lg:text-lg">Lorem ipsum dolor sit amet
-                            consectetur
-                            adipisicing
-                            elit. Culpa, iure? Facilis aut sequi officia
-                            doloremque debitis nihil. Soluta!</p>
+                        <p className="font-medium text-base text-secondary mb-6 lg:text-lg">Tak kenal maka tak sayang, sudah kenal jangan buat 100rb ku melayang. Jadi mari mutualan di berbagai social media berikut.</p>
                         <div className="flex items-center">
                             {/*  facebook  */}
                             <a href="https://www.facebook.com/alfinkrefin" target="_blank"

@@ -26,17 +26,17 @@ const FooterComponent = () => {
                         <div className="w-full px-4 mb-12 md:w-1/3">
                             <h3 className="font-semibold text-xl text-white mb-5">Tautan</h3>
                             <ul className="text-slate-300">
-                                <li><a href="#home" className="inline-block text-base hover:text-primary mb-3">Beranda</a>
+                                <li><a href="/home" className="inline-block text-base hover:text-primary mb-3">Beranda</a>
                                 </li>
-                                <li><a href="#about" className="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
+                                <li><a href="/about" className="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
                                 </li>
-                                <li><a href="#portfolio" className="inline-block text-base hover:text-primary mb-3">Portfolio</a>
+                                <li><a href="/portfolio" className="inline-block text-base hover:text-primary mb-3">Portfolio</a>
                                 </li>
-                                <li><a href="#clients" className="inline-block text-base hover:text-primary mb-3">Clients</a>
+                                <li><a href="/clients" className="inline-block text-base hover:text-primary mb-3">Clients</a>
                                 </li>
-                                <li><a href="#blog" className="inline-block text-base hover:text-primary mb-3">Blog</a>
+                                <li><a href="/blog" className="inline-block text-base hover:text-primary mb-3">Blog</a>
                                 </li>
-                                <li><a href="#contact" className="inline-block text-base hover:text-primary mb-3">Contact</a>
+                                <li><a href="/contact" className="inline-block text-base hover:text-primary mb-3">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -94,6 +94,12 @@ const FooterComponent = () => {
                         </p>
                     </div>
                 </div>
+                {/* Back to top */}
+                <a href="#home" id="to-top"
+                    className="h-14 w-14 bg-primary rounded-full fixed hidden items-center justify-center z-[9999] bottom-4 right-4 p-4 hover:animate-pulse">
+                    <span className="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+                </a>
+                {/* End Back to top */}
             </section>
         </>
     )

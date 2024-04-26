@@ -1,7 +1,7 @@
 
 const TipsProgramming = () => {
     return (
-        <section className="pt-36 pb-32 bg-slate-100 dark:bg-dark">
+        <section id="home" className="pt-36 pb-32 bg-slate-100 dark:bg-dark">
             <div className="container">
                 <div className="w-full px-4">
                     <div className="max-wx-xl mx-auto text-center mb-16">
@@ -9,7 +9,7 @@ const TipsProgramming = () => {
                         <p className="font-medium text-md text-secondary md:text-lg text-left mb-3">Pemrograman, dalam era digital saat ini, telah menjadi salah satu keterampilan yang sangat dicari di berbagai industri. Namun, belajar pemrograman bisa menjadi tantangan yang menarik namun juga memerlukan kesabaran dan dedikasi yang tinggi.</p>
                         <img src="https://source.unsplash.com/1280x720?programming" alt="Programming" className="w-full" />
 
-                        <div className="w-3/4 mx-auto mt-3">
+                        <div className="w-full mx-auto mt-3">
                             <p className="font-medium text-md text-secondary md:text-lg text-left">Berikut adalah beberapa tips dan strategi efektif untuk membantu Anda dalam belajar pemrograman dengan lebih baik:</p>
                             <h4 className="font-bold pt-6 text-dark text-left text-xl mb-4 sm:text-2xl lg:text-3xl dark:text-white">1. Tentukan Tujuan dan Pilih Bahasa Pemrograman yang Tepat</h4>
                             <p className="font-medium text-md text-secondary md:text-lg text-left">
