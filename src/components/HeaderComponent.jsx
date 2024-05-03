@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 
 
 const HeaderComponent = () => {
@@ -5,10 +6,15 @@ const HeaderComponent = () => {
     window.onscroll = function () {
         const header = document.querySelector("header");
         const fixedNav = header.offsetTop;
+        const toTop = document.querySelector('#to-top');
         if (window.pageYOffset > fixedNav) {
             header.classList.add("navbar-fixed");
+            toTop.classList.remove('hidden');
+            toTop.classList.add('flex');
         } else {
             header.classList.remove("navbar-fixed");
+            toTop.classList.remove('flex');
+            toTop.classList.add('hidden');
         }
     };
 
@@ -60,7 +66,7 @@ const HeaderComponent = () => {
                 <div className="container">
                     <div className="flex items-center justify-between relative">
                         <div className="px-4">
-                            <a href="#home" className="font-bold text-lg text-primary block py-6">Alfin</a>
+                            <a href="/" className="font-bold text-lg text-primary block py-6">Alfin</a>
                         </div>
                         <div className="flex items-center px-4">
                             <button id="hamburger" name="hamburger" type="button" onClick={toggleMenu} className="block absolute right-4 lg:hidden">
@@ -72,29 +78,67 @@ const HeaderComponent = () => {
                                 className="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark dark:shadow-slate-500 lg:dark:bg-transparent">
                                 <ul className="block lg:flex">
                                     <li className="group">
-                                        <a href="#home"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Beranda</a>
+                                        <NavLink
+                                            to="/"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Beranda
+                                        </NavLink>
+
                                     </li>
                                     <li className="group">
-                                        <a href="#about"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Tentang
-                                            Saya</a>
+                                        <NavLink
+                                            to="/tentang"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Tentang
+                                            Saya
+                                        </NavLink>
+
                                     </li>
                                     <li className="group">
-                                        <a href="#portfolio"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Portfolio</a>
+                                        <NavLink
+                                            to="/portfolio"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Portfolio
+                                        </NavLink>
                                     </li>
                                     <li className="group">
-                                        <a href="#clients"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Clients</a>
+                                        <NavLink
+                                            to="/clients"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Clients
+                                        </NavLink>
                                     </li>
                                     <li className="group">
-                                        <a href="#blog"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Blog</a>
+                                        <NavLink
+                                            to="/blog"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Blog
+                                        </NavLink>
                                     </li>
                                     <li className="group">
-                                        <a href="#contact"
-                                            className="text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white">Contact</a>
+                                        <NavLink
+                                            to="/contact"
+                                            className={({ isActive, isPending }) =>
+                                                isPending ? "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white" : isActive ? "text-base text-primary py-2 mx-8 flex group-hover:text-primary dark:text-primary" : "text-base text-dark py-2 mx-8 flex group-hover:text-primary dark:text-white"
+                                            }
+                                        >
+                                            Contact
+                                        </NavLink>
                                     </li>
                                     <li className="flex items-center pl-8 mt-3 lg:mt-0">
                                         <div className="flex">

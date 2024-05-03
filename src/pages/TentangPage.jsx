@@ -1,48 +1,22 @@
 
 
-const FooterComponent = () => {
+const TentangPage = () => {
     return (
-        <>
-            <section className="bg-dark pt-24 pb-12">
-                <div className="container">
-                    <div className="flex flex-wrap">
-                        <div className="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
-                            <h2 className="font-bold text-4xl text-white mb-5">Alfin</h2>
-                            <h3 className="font-bold text-2xl mb-2">Hubungi Saya</h3>
-                            <p>alfin120502@gmail.com</p>
-                            <p>Kuningan, Jawa Barat</p>
-                        </div>
-                        <div className="w-full px-4 mb-12 md:w-1/3">
-                            <h3 className="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
-                            <ul className="text-slate-300">
-                                <li><a href="#" className="inline-block text-base hover:text-primary mb-3">Programming</a>
-                                </li>
-                                <li><a href="#" className="inline-block text-base hover:text-primary mb-3">Teknologi</a>
-                                </li>
-                                <li><a href="#" className="inline-block text-base hover:text-primary mb-3">Gaya Hidup</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="w-full px-4 mb-12 md:w-1/3">
-                            <h3 className="font-semibold text-xl text-white mb-5">Tautan</h3>
-                            <ul className="text-slate-300">
-                                <li><a href="/home" className="inline-block text-base hover:text-primary mb-3">Beranda</a>
-                                </li>
-                                <li><a href="/about" className="inline-block text-base hover:text-primary mb-3">Tentang Saya</a>
-                                </li>
-                                <li><a href="/portfolio" className="inline-block text-base hover:text-primary mb-3">Portfolio</a>
-                                </li>
-                                <li><a href="/clients" className="inline-block text-base hover:text-primary mb-3">Clients</a>
-                                </li>
-                                <li><a href="/blog" className="inline-block text-base hover:text-primary mb-3">Blog</a>
-                                </li>
-                                <li><a href="/contact" className="inline-block text-base hover:text-primary mb-3">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
+        <section id="home" className="pt-36 pb-32 dark:bg-dark">
+            <div className="container">
+                <div className="flex flex-wrap">
+                    <div className="w-full px-4 mb-10 lg:w-1/2">
+                        <h2 className="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl dark:text-white">Yuk, Belajar web
+                            programming biar
+                            keren:v
+                        </h2>
+                        <p className="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya adalah individu yang penuh semangat dalam mempelajari web programming, dengan kreativitas yang mengalir dan ketekunan yang kuat. Tantangan selalu saya hadapi dengan antusiasme, dan saya terus berkembang demi mencapai kesuksesan</p>
                     </div>
-                    <div className="w-full pt-10 border-t border-slate-700">
-                        <div className="flex items-center justify-center mb-5">
+                    <div className="w-full px-4 lg:w-1/2">
+                        <h3 className="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10 dark:text-white">Mari berteman
+                        </h3>
+                        <p className="font-medium text-base text-secondary mb-6 lg:text-lg">Tak kenal maka tak sayang, sudah kenal jangan buat 100rb ku melayang. Jadi mari mutualan di berbagai social media berikut.</p>
+                        <div className="flex items-center">
                             {/*  facebook  */}
                             <a href="https://www.facebook.com/alfinkrefin" target="_blank"
                                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
@@ -54,7 +28,7 @@ const FooterComponent = () => {
                                 </svg>
                             </a>
 
-                            {/* instagram  */}
+                            {/*  instagram  */}
                             <a href="https://www.instagram.com/alfin_krefin" target="_blank"
                                 className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
                                 <svg role="img" width="20" className="fill-current" viewBox="0 0 24 24"
@@ -87,22 +61,11 @@ const FooterComponent = () => {
                                 </svg>
                             </a>
                         </div>
-                        <p className="font-medium text-xs text-slate-500 text-center">Dibuat dengan <span
-                            className="text-pink-500">❤</span> oleh <a href="https://instagram.com/alfin_krefin" target="_blank"
-                                className="font-bold text-primary">Alfin</a>, menggunakan <a href="https://tailwindcss.com"
-                                    target="_blank" className="font-bold text-sky-500">Tailwind CSS</a>.
-                        </p>
                     </div>
                 </div>
-                {/* Back to top */}
-                <a href="#home" id="to-top"
-                    className="h-14 w-14 bg-primary rounded-full fixed hidden items-center justify-center z-[9999] bottom-4 right-4 p-4 hover:animate-pulse">
-                    <span className="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
-                </a>
-                {/* End Back to top */}
-            </section>
-        </>
+            </div>
+        </section>
     )
 }
 
-export default FooterComponent
+export default TentangPage
